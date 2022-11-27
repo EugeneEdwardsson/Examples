@@ -1,7 +1,7 @@
 ﻿int numberA = new Random().Next(1, 10);
-Console.WriteLine("Первое число:" + numberA);
+Console.WriteLine("First numbers:" + numberA);
 int numberB = new Random().Next(1, 10);
-Console.WriteLine("Второе число:" + numberB);
+Console.WriteLine("Second numbers:" + numberB);
 int sum = numberA + numberB;
 
-Console.WriteLine("Сумма двух чисел равна:" + sum);
+Console.WriteLine("The sum of two numbers" + sum);

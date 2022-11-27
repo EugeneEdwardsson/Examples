@@ -1,10 +1,10 @@
-﻿Console.Write("Введите ваше имя!");
+﻿Console.Write("Enter your name! ");
 string userName = Console.ReadLine();
 
-if (userName == "Маша")
+if (userName == "Maria")
 {
-    Console.WriteLine("Привет Машуля!");
+    Console.WriteLine("Hello Maria!");
 } else {
-    Console.Write("Привет, гость: ");
+    Console.Write("Hello, guest: ");
     Console.WriteLine(userName + "!");
 }
