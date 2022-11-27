@@ -1,5 +1,5 @@
-﻿int numberA = 10;
-int numberB = 2;
-int sum = numberA / numberB;
+﻿double numberA = 10;
+double numberB = 2;
+double sum = numberA / numberB;
 
 Console.WriteLine("Сумма двух чисел равна:" + sum);
