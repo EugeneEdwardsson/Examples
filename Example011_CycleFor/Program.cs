@@ -74,6 +74,6 @@ using System;
 // PrintArray(arr);
 
 
-int num = 67194;
-int result = num / 100 % 100;
-Console.Write(result);
+
+
+
