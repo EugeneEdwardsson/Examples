@@ -77,3 +77,23 @@ using System;
 
 
 
+
+
+    int num = Convert.ToInt32(Console.ReadLine());
+
+    int[] CreateArr(int size)
+    {
+        int[] myArray = new int [size];
+
+        for (int i = 0; i < size; i++)
+        {
+            myArray.Append(i);
+        }     
+       return myArray;
+    }
+
+    
+int[] inputNum = CreateArr(num);
+
+
+
