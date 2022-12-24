@@ -118,14 +118,42 @@
 
 
 
-double Fibonacci(int n)
-{
-    if(n == 1 || n == 2) return 1;
-    else return Fibonacci(n-1) + Fibonacci(n-2);
-}
-for (int i = 1; i < 50; i++)
-{
-    Console.WriteLine($"f({i}) = {Fibonacci(i)}");
-}
+// double Fibonacci(int n)
+// {
+//     if(n == 1 || n == 2) return 1;
+//     else return Fibonacci(n-1) + Fibonacci(n-2);
+// }
+// for (int i = 1; i < 50; i++)
+// {
+//     Console.WriteLine($"f({i}) = {Fibonacci(i)}");
+// }
+
+
+// int[,] CreateArray(int rows, int colums, int minValue, int maxValue)
+// {
+//     int[,] array = new int[rows, colums];
+
+//     for(int i = 0; i < rows; i++)
+//     {
+//         for(int j = 0; j < colums; j++)
+//         {
+//             array[i,j] = new Random().Next(minValue, maxValue);
+//         }
+//     }
+//     return array;
+// }
+
+// void Show2dArray(int[,] array)
+// {
+//     for(int i = 0; i < array.GetLength(0);i++)
+//     {
+//         for(int j = 0;j < array.GetLength(1); j++)
+//         {
+//             Console.Write(array[i,j] + "\t");
+//         }
+//         Console.WriteLine();
+//     }
+//     Console.WriteLine();
+// }
 
 
